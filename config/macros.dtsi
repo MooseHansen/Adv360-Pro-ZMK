@@ -9,7 +9,7 @@ compatible = "zmk,behavior-macro";
 label = "macro_email";
 #binding-cells = <0>;
 bindings = <&kp LS(M)>, <&kp A>, <&kp R>, <&kp K>, <&kp DOT>, <&kp LS(H)>, <&kp A>, <&kp N>, <&kp S>, <&kp E>, <&kp N>,
-    <&kp AT_SIGN>, <&kp W>, <&kp B>, <&kp D>, <&kp DOT>, <&kp C>, <&kp O>, <&kp M>, <&macro_wait_time 330>, <&kp TAB>; 
+    <&kp AT_SIGN>, <&kp W>, <&kp B>, <&kp D>, <&kp DOT>, <&kp C>, <&kp O>, <&kp M>; 
 };
 macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
